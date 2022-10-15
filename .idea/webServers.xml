@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2a6d001c-8616-47e9-8b2f-107b022c0acd" name="vakif" url="https://vakif.erensengun.com/admin">
+        <fileTransfer rootFolder="/var/www/vhosts/vakif.erensengun.com/httpdocs/admin" accessType="SFTP" host="vakif.erensengun.com" port="22" sshConfigId="3fc3ee02-f244-46e7-8dd8-fa11bc9c19e0" sshConfig="root@vakif.erensengun.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

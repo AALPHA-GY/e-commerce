@@ -1,0 +1,728 @@
+@font-face {
+	font-family: 'Flama';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Flama'), url('fonts/Flama Regular.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Flama Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Flama Italic'), url('fonts/Flama Italic.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Flama Bold Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Flama Bold Italic'), url('fonts/Flama Bold Italic.woff') format('woff');
+}
+
+
+
+
+
+html,body{
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+
+}
+
+
+.cardDiv img:hover {
+	filter: brightness(25%);
+	-webkit-transition: all .3s ease;
+	-webkit-backface-visibility: hidden;
+
+}
+
+
+.topBar{
+	background-color:#222222;
+	color: #fff;
+	padding: 15px 15px 0 15px;
+	margin: 0;
+
+}
+
+
+
+.dilAlani{
+	padding-top: 5px;
+	color: #919191;
+}
+
+.dilAlani ul {
+	list-style: none
+}
+
+.dilAlani li {
+	color: #919191;
+	display: inline;
+}
+
+
+.dilAktif{
+	color: #e32423!important;
+}
+
+
+
+.btnAra {
+	border-radius: 0;
+	background-color: #919191;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	color: #e32423!important;
+	border: 1px solid #919191!important;
+
+}
+
+
+.inputAra{
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	background-color: #919191;
+	border: 1px solid #919191;
+}
+
+
+.nav-link{
+	color: #fff!important;
+	outline: none;
+}
+
+.nav-link:hover{
+	color: #222222!important;
+}
+
+.dropdown-toggle::after {
+	content: none;
+}
+
+.dropdown-menu-arrow {
+	top: -25px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	position: relative;
+}
+.dropdown-menu-arrow:before,
+.dropdown-menu-arrow:after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	border-width: 7px 8px;
+	border-style: solid;
+	border-color: transparent;
+	z-index: 1001;
+}
+.dropdown-menu-arrow:after {
+	bottom: -18px;
+	right: -8px;
+	border-bottom-color: #222222;
+}
+.dropdown-menu-arrow:before {
+	bottom: -17px;
+	right: -8px;
+	border-bottom-color: rgba(0,0,0,.15);
+}
+
+
+nav {
+	background-color: #e32423!important;
+}
+
+
+.dropdown-menu{
+	background-color: #222222!important;
+}
+
+.dropdown-item {
+	color: #fff;
+}
+
+.dropdown-item:before{
+	content: '\f111'; 
+	visibility: hidden;
+	padding-right: 4px;
+	vertical-align: middle;
+	font-weight: 900;
+	font-size: 9px;
+	font-family: "Font Awesome 6 Free";
+}
+
+
+.dropdown-item:hover:before{
+	visibility: visible;
+
+
+}
+
+.customInput:focus {
+	outline: none;
+	text-indent: 10px;
+}
+
+
+
+
+.navbar-toggler{
+	border: 2px solid #fff;
+}
+.navbar-toggler-icon {
+
+	color: #fff!important;
+	padding-top: 4px;
+
+}
+
+.bg-kirmizi{
+	background-color:#e32423!important;
+}
+
+.bg-siyah{
+	background-color:#222222!important;
+}
+
+
+.heroSection h1{
+	margin-top: 150px;
+	display:inline;
+	text-align:center;
+	width:100%;
+}
+.heroSection {
+	padding-bottom: 150px;
+}
+
+.ilkSira {
+	margin-top: -30px;
+}
+
+
+
+.cardDiv img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 3px ;
+}
+
+
+.bultenSection input {
+	background-color:#e32423;
+	color: #000;
+	border: 1px solid #fff;
+	border-radius: 2px;
+
+}
+
+
+.bultenSection input::placeholder {
+	font-size: 12px;
+}
+
+
+.bultenSection button {
+	background-color:#e32423;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 2px;
+
+}
+
+
+
+
+
+.bultenSection input::placeholder {
+	color: #000;
+	padding-left: 5px;
+}
+
+
+.bultenSection {
+	padding: 10px 0;
+}
+
+
+
+.bultenSection ul {
+	list-style: none
+}
+
+.bultenSection li {
+	color: #fff;
+	font-size: 16px;
+	margin-right: 5px;
+	display: inline;
+}
+
+
+
+footer {
+	background-color: transparent;
+	background-image: url('images/footer-bg.jpg');
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	color: #666666;
+	font-size: 12px;
+}
+
+.footer-bg{    
+	width: 100%;
+	height: 100%;
+	background-color: #000000eb;
+	padding: 35px 0;
+}
+
+
+.copyText {
+	margin-top: 75px;
+}
+
+
+
+.logo{
+	margin-top: -76px;
+	margin-left: 20vw;
+}
+
+
+.logo-footer{  
+	filter:  brightness(0) invert(1);
+}
+
+
+
+
+.navbar-collapse{
+	margin-left: 10vw;
+}
+
+
+
+.cardSection{
+	padding-bottom: 25px;
+}
+.cardYazisi {
+	position: absolute;
+	bottom: 20px;
+	left: 5px;
+	color: #cccccc;
+	padding-left: 40px;
+	padding-right: 20px;
+	text-align: left;
+}
+.cardYazisi h4 {
+	float: left;
+}
+
+.cardBtn{
+	border-radius: 15px;
+	background-color: transparent;
+	color: #cccccc;
+	padding: 0px 50px;
+	border: 1px solid #cccccc;
+}
+.cardBtn:hover{
+	color: #fff;
+	background-color: #cccccc;
+	text-decoration: none;
+}
+
+
+.filtreAlani{
+	background-color: #222222;
+	color: #e32423;
+	margin-top: -55px;
+}
+
+
+.filtreAlani select {
+	height: calc(1.5em + .75rem + 2px);
+	padding: .375rem .75rem;
+	margin-right: 2rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #e32423;
+	background-color: #222222;
+	background-clip: padding-box;
+	border: transparent;
+}
+
+
+
+.programCardSol {
+	padding: 0;
+
+}
+
+.programCardSag {
+	padding: 0 0 0 10px;
+}
+
+.programCardIcerik{
+	background-color: #fff;
+	border-radius: 5px;
+	height: 100%;
+	color: #8d8d8d;
+}
+
+
+.programCardIcerik h3 {
+	color: #000;
+	font-size: 18px;
+}
+
+
+.tur {
+	font-size: 12px;
+}
+
+
+.image {
+	position:relative;
+	height: 100%;
+}
+.image img {
+	width:100%;
+	vertical-align:top;
+}
+.image:after {
+	content:'\A';
+	position:absolute;
+	width:100%; height:100%;
+	top:0; left:0;
+	background:rgba(0,0,0,0.6);
+	opacity:0;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.image:hover:after {
+	opacity:1;
+}
+
+
+
+
+
+
+.kirmiziBtn{
+	border-radius: 15px;
+	background-color: transparent;
+	color: #e32423;
+	padding: 0px 50px;
+	border: 1px solid #e32423;
+}
+.kirmiziBtn:hover{
+	color: #fff;
+	background-color: #e32423;
+	text-decoration: none;
+}
+
+
+.programCardIcerik .kirmiziBtn{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+.programCardIcerik .solAlt{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+
+}
+
+
+.programCardIcerik .sagAlt{
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+
+}
+.programCardIcerik strong {
+	color: #000;
+
+}
+
+
+.tarihKutusu {
+	border-radius: 50%;
+	background-color: #e32423;
+	text-align: center;
+	padding-top: 5px;
+	height: 75px;
+	width: 75px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	color: white;
+
+	line-height: 20px;
+}
+
+
+.tarihKutusu strong {
+	color: white;
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+
+
+.yukariCek {
+	margin-top: -55px;
+}
+
+
+.gorseller{
+	margin-top: -55px;
+	padding: 25px;
+	margin-bottom: 25px;
+
+}
+
+.programDetay {
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: -55px;
+	padding: 25px;
+	margin-bottom: 25px;
+}
+
+.programDetay p {
+	color: #000;
+}
+
+.programDetay .giris{
+	color: #e32423;
+}
+
+
+
+.lb-number{
+	display: none!important;
+}
+
+.lightbox .lb-image {
+	border: 0!important;
+}
+
+
+
+
+
+.imgDiv {
+	width: 100%;
+}
+.imgDiv img {
+	margin: 0 auto;
+}
+
+
+
+
+.blockBtn{
+	border-radius: 3px;
+	background-color: transparent;
+	color: #e32423;
+	padding: 15px 60px;
+	border: 1px solid #e32423;
+	width: 100%;
+}
+.blockBtn:hover{
+	color: #fff;
+	background-color: #e32423;
+	text-decoration: none;
+}
+
+
+.basindaCard{
+	background-color: #fff;
+	width: 100%;
+	padding: 25px;
+	color: #222222;
+	border-radius: 5px;
+}
+
+.text-dark * {
+	color: #000;
+}
+
+
+.mapsDiv iframe {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+
+.iletisimCard{
+	background-color: #fff;
+	color: #000;
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	padding: 10px 20px 10px 20px;
+
+}
+
+
+.iletisimFormu{
+	background-color: #fff;
+	padding: 25px;
+	margin-top: 25px;
+	border-radius: 5px;
+}
+
+
+.iletisimFormu h3 {
+	color: #e32423;
+}
+
+
+.iletisimFormu input {
+	width: 100%;
+	border-radius: 0;
+	outline: none;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: groove;
+	background-color: #fff;
+	border-bottom: 1px solid #222;
+	padding: 10px;
+	margin-bottom: 15px;
+
+}
+
+
+.iletisimFormu button{
+	width: 100%;
+	background-color: #fff;
+	color: #e32423;
+	padding: 10px;
+	border: 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+
+.iletisimFormu button:hover {
+	background-color: #e32423;
+	color: white;
+}
+
+
+
+.iletisimYazisi {
+	margin-top: 100px;
+}
+
+
+
+
+footer a {
+	color: #666666;
+}
+
+
+footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.dropdown-item:focus, .dropdown-item:hover {
+	background-color: #222222;
+	color: #e32423;
+}
+
+@media only screen and (min-width: 601px) {
+	.dropdown-menu{
+		background-color: #222222!important;
+		left: 50% !important;
+		transform: translateX(-50%) !important;
+		top: 100% !important;
+	}
+}
+
+
+/*Mobil*/
+@media only screen and (max-width: 600px) {
+
+
+
+	.iletisimYazisi {
+		margin-top: 0;
+	}
+
+
+
+	.bultenSection input{
+		width: 90%;
+	}
+
+
+	html,body {
+		font-size: 16px;
+	}
+
+
+
+	.navbar-collapse{
+		margin-left: 0;
+	}
+
+
+	.logo{
+		margin-top: 0;
+		margin-left: 0
+	}
+
+	.programCardIcerik {
+		padding: 55px 0 ;
+
+	}
+
+
+
+	.programCardIcerik .sagAlt{
+		bottom: 35px;
+		left: 40px;
+
+	}
+
+
+	.filtreAlani select {
+		margin-right: 0;
+		width: 100%; 
+	}
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 992px) {
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+}
