@@ -7,13 +7,13 @@ import "slick-carousel/slick/slick-theme.css";
 class NewArrival extends Component {
      render() {
           var settings = {
-               dots: false,
-               infinite: false,
-               speed: 500,
+               dots: true,
+               infinite: true,
+               speed: 3000,
                autoplay: true,
-               autoplaySpeed:3000,
+               autoplaySpeed:2000,
                slidesToShow: 4,
-               slidesToScroll: 1,
+               slidesToScroll: 2,
                initialSlide: 0,
                arrows: false,
                responsive: [
