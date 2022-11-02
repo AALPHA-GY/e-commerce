@@ -24,6 +24,7 @@ export class HomePage extends Component {
                 </div>
                 <div className="Mobile">
                     <NavMenuMobile/>
+                    <br/><br/><br/>
                     <HomeTopMobile/>
                 </div>
 

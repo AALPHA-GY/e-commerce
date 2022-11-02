@@ -43,15 +43,23 @@ class NavMenuMobile extends Component {
         <div className="TopSectionDown">
 
 
-          <Container fluid={"true"} className="fixed-top shadow-sm p-2 mb-0 bg-white">
+          <Container fluid={"true"} className="fixed-top shadow-sm p-0 mb-0 bg-white">
             <Row>
               <Col lg={4} md={4} sm={12} xs={12}>
-
                 <Button onClick={this.MenuBarClickHandler} className="btn"><i className="fa fa-bars"></i>  </Button>
                 <Link to="/"> <img className="nav-logo" src={Logo} /> </Link>
+                <br/>
+                <Link to="/favourite" className="btn"><i className="fa h4 fa-heart"></i><sup><span className="badge text-white bg-danger">3</span></sup>
+                </Link>
+                <Link to="/notification" className="btn"><i className="fa h4 fa-bell"></i><sup><span className="badge text-white bg-danger">5</span></sup>
+                </Link>
+                <a className="btn"><i className="fa h4 fa-mobile-alt"></i></a>
+                <Link to="/login" className="h4 btn">Giriş Yap</Link>
+                <Link to="/cart" className="cart-btn"><i className="fa fa-shopping-cart"></i> 3 Sipariş </Link>
 
-                <Button className="cart-btn"><i className="fa fa-shopping-cart"></i> 3 Sipariş </Button>
               </Col>
+
+
 
             </Row>
 

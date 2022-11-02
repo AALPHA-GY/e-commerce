@@ -1,32 +1,28 @@
 import React, { Component, Fragment } from 'react'
-import pc from '../../assets/images/product/product1.png';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import {Container,Row,Col,Card} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-class FeaturedProducts extends Component {
+
+class SuggestedProduct extends Component {
     render() {
         return (
             <Fragment>
-                <Container className='text-center' fluid={true}>
-                    <div className='section-title text-center mb-55'>
-                        <h2>
-                           Özel Ürünler
-                        </h2>
-                        <p>
-                            Özel Ürünlerimizden Bazıları, Bunları Beğenebilirsiniz
-                        </p>
+                <Container className="text-center" fluid={true}>
+                    <div className="section-title text-center mb-55"><h2>BUNLARIDA BEĞENEBİLİRSİNİZ </h2>
+                        <p>Sizin İçin Seçtiklerimizden bazıları</p>
                     </div>
+
 
                     <Row>
                         <Col className="p-1" key={1} xl={2} lg={2} md={2} sm={4} xs={6}>
                             <Link to="/productdetails">
-                            <Card className="image-box card">
-                                <img className="center" src={pc} />
-                                <Card.Body>
-                                    <p className="product-name-on-card">ASUS TUF A15</p>
-                                    <p className="product-price-on-card">Fiyat : 500₺</p>
+                                <Card className="image-box card">
+                                    <img className="center" src="https://rukminim1.flixcart.com/image/416/416/kn7sdjk0/mobile/q/j/x/c21-rmx3201-realme-original-imagfxfwbszrxkvu.jpeg?q=70" />
+                                    <Card.Body>
+                                        <p className="product-name-on-card">Realme C21 (Cross Black, 64 GB)</p>
+                                        <p className="product-price-on-card">Fiyatı : 120₺</p>
 
-                                </Card.Body>
-                            </Card>
+                                    </Card.Body>
+                                </Card>
                             </Link>
                         </Col>
 
@@ -37,7 +33,7 @@ class FeaturedProducts extends Component {
                                 <img className="center" src="https://rukminim1.flixcart.com/image/416/416/knm2s280/mobile/j/x/c/hot-10-play-x688b-infinix-original-imag29gxqzuxkmnk.jpeg?q=70" />
                                 <Card.Body>
                                     <p className="product-name-on-card">Realme C21 (Cross Blue, 64 GB)</p>
-                                    <p className="product-price-on-card">Fiyat : 120₺</p>
+                                    <p className="product-price-on-card">Fiyatı : 120₺</p>
 
                                 </Card.Body>
                             </Card>
@@ -48,7 +44,7 @@ class FeaturedProducts extends Component {
                                 <img className="center" src="https://rukminim1.flixcart.com/image/416/416/kn7sdjk0/mobile/g/r/g/c21-rmx3201-realme-original-imagfxfwn9aryyda.jpeg?q=70" />
                                 <Card.Body>
                                     <p className="product-name-on-card">Realme C21 (Cross Black, 64 GB)</p>
-                                    <p className="product-price-on-card">Fiyat : 120₺</p>
+                                    <p className="product-price-on-card">Fiyatı : 120₺</p>
 
                                 </Card.Body>
                             </Card>
@@ -60,7 +56,7 @@ class FeaturedProducts extends Component {
                                 <img className="center" src="https://rukminim1.flixcart.com/image/416/416/knm2s280/mobile/v/l/u/hot-10-play-x688b-infinix-original-imag29hfaedkgdfe.jpeg?q=70" />
                                 <Card.Body>
                                     <p className="product-name-on-card">Realme C21 (Cross Black, 64 GB)</p>
-                                    <p className="product-price-on-card">Fiyat : 120₺</p>
+                                    <p className="product-price-on-card">Fiyatı : 120₺</p>
 
                                 </Card.Body>
                             </Card>
@@ -72,7 +68,7 @@ class FeaturedProducts extends Component {
                                 <img className="center" src="https://rukminim1.flixcart.com/image/416/416/knrsjgw0/mobile/f/o/w/8-5g-rmx3241-realme-original-imag2d8eksc2szzy.jpeg?q=70" />
                                 <Card.Body>
                                     <p className="product-name-on-card">Realme C21 (Cross Black, 64 GB)</p>
-                                    <p className="product-price-on-card">Fiyat : 120₺</p>
+                                    <p className="product-price-on-card">Fiyatı : 120₺</p>
 
                                 </Card.Body>
                             </Card>
@@ -84,7 +80,7 @@ class FeaturedProducts extends Component {
                                 <img className="center" src="https://rukminim1.flixcart.com/image/416/416/kd69z0w0/mobile/a/n/g/mi-redmi-note-9-b086982zkf-original-imafu4qf8gfcutde.jpeg?q=70" />
                                 <Card.Body>
                                     <p className="product-name-on-card">Realme C21 (Cross Black, 64 GB)</p>
-                                    <p className="product-price-on-card">Fiyat : 120₺</p>
+                                    <p className="product-price-on-card">Fiyatı : 120₺</p>
 
                                 </Card.Body>
                             </Card>
@@ -92,10 +88,13 @@ class FeaturedProducts extends Component {
 
 
                     </Row>
+
+
                 </Container>
+
             </Fragment>
         )
     }
 }
 
-export default FeaturedProducts
+export default SuggestedProduct
